@@ -1,0 +1,41 @@
+@font-face {
+    font-family: medium;
+    src: url(../assets/fonts/MuseoSansCyrl300.ttf);
+}
+
+@font-face {
+    font-family: bold;
+    src: url(../assets/fonts/MuseoSansCyrl700.ttf);
+}
+
+@font-face {
+    font-family: normal;
+    src: url(../assets/fonts/MuseoSansCyrl500.ttf)
+}
+
+
+.recept_d {
+    margin-top: 88px;
+}
+
+.recept_d h2 {
+    color: rgb(43, 30, 221);
+    font-family: bold, sans-serif;
+    font-size: 40.8px;
+    font-weight: 700;
+    line-height: 50.5px;
+    letter-spacing: 1%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.recept_d p {
+    margin-top: 24px;
+    color: rgb(59, 59, 59);
+    font-family: normal, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 1%;
+    text-align: left;
+}

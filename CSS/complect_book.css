@@ -1,0 +1,134 @@
+@font-face {
+    font-family: medium;
+    src: url(../assets/fonts/MuseoSansCyrl300.ttf);
+}
+
+@font-face {
+    font-family: bold;
+    src: url(../assets/fonts/MuseoSansCyrl700.ttf);
+}
+
+@font-face {
+    font-family: normal;
+    src: url(../assets/fonts/MuseoSansCyrl500.ttf)
+}
+
+
+.complect_grids {
+    width: 1150px;
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+
+.title_grids {
+    width: 417px;
+}
+
+.complect_grids img {
+    width: 679px;
+    height: 221px;
+
+}
+
+.complect_grids h2 {
+    color: rgb(59, 59, 59);
+    font-family: normal, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 1%;
+    text-align: left;
+}
+
+
+.complect_grids p {
+    margin-top: 13px;
+    color: rgb(130, 128, 128);
+    font-family: medium, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1%;
+    text-align: left;
+}
+
+.btn_divs {
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn_divs button {
+    width: 174px;
+}
+
+.btn_divs button,
+.btn_divs a {
+    border: none;
+    text-decoration: none;
+    height: 50px;
+    border-radius: 3px;
+    color: rgb(59, 59, 59);
+    font-family: bold, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 16.5px;
+    letter-spacing: 1%;
+    text-align: center;
+    background: rgb(248, 248, 248), linear-gradient(31.76deg, rgb(225, 34, 249) -1.221%, rgb(43, 30, 221) 68.888%);
+}
+
+
+.btn_divs button:hover {
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    background: linear-gradient(31.76deg, rgb(225, 34, 249) -1.221%, rgb(43, 30, 221) 68.888%);
+}
+
+.btn_divs a:hover {
+    color: rgb(255, 255, 255);
+}
+
+
+@media (max-width: 768px) {
+    .complect_grids {
+        width: 100%;
+        display: block;
+    }
+
+    .complect_grids .mobil {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+    .title_grids{
+        padding: 5px;
+    }
+    .complect_grids .mob {
+        display: none;
+    }
+
+
+    .complect_grids h2 {
+        font-size: 16px;
+        line-height: 20px;
+
+    }
+
+
+    .complect_grids p {
+        font-size: 12px;
+    }
+
+    .btn_divs {
+        display:block;
+    }
+    .btn_divs button {
+        width: 90%;
+        margin-top: 12px;
+    }
+
+}

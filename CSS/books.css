@@ -1,0 +1,402 @@
+@font-face {
+    font-family: medium;
+    src: url(../assets/fonts/MuseoSansCyrl300.ttf);
+}
+
+@font-face {
+    font-family: bold;
+    src: url(../assets/fonts/MuseoSansCyrl700.ttf);
+}
+
+@font-face {
+    font-family: normal;
+    src: url(../assets/fonts/MuseoSansCyrl500.ttf)
+}
+
+.colors {
+    background: rgb(255, 255, 255);
+
+}
+
+.arrov {
+    margin-top: 66px;
+}
+
+.arrov img {
+    transform: rotate(-180.00deg);
+}
+
+.arrov h1 {
+    color: rgb(59, 59, 59);
+    font-family: bold, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.arrov h2 {
+    margin-top: 12px;
+    color: rgb(59, 59, 59);
+    font-family: medium;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 1%;
+    text-align: left;
+}
+
+.titl_p {
+    margin-top: 56px;
+}
+
+.titl_p h2 {
+    color: rgb(59, 59, 59);
+    font-family: normal, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 1%;
+    text-align: left;
+}
+
+.parent_big {
+    display: flex;
+    justify-content: space-between;
+}
+
+.parent-card_ {
+    width: 610px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recept {
+    width: 950px !important;
+}
+
+.card_ {
+    transition: all 0.3s ease;
+    padding: 12px;
+    width: 263px;
+    margin-top: 60px;
+}
+
+.card_:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-25px);
+    z-index: 1;
+}
+
+.card_ h2 {
+    margin-top: 30px;
+    color: rgb(59, 59, 59);
+    font-family: normal, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1%;
+    text-align: left;
+}
+
+.card_ h3 {
+    color: rgb(130, 128, 128);
+    font-family: normal, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: left;
+    margin-top: 8px;
+}
+
+.div_i {
+    margin-top: 10px;
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_i span {
+    text-decoration-line: line-through;
+}
+
+.btns {
+    margin-top: 10px;
+}
+
+.btns button:hover {
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    background: linear-gradient(31.76deg, rgb(225, 34, 249) -1.208%, rgb(43, 30, 221) 68.853%);
+}
+
+.btns img:hover {
+    background: linear-gradient(31.76deg, rgb(225, 34, 249) -1.208%, rgb(43, 30, 221) 68.853%);
+}
+
+.btns button {
+    width: 175px;
+    height: 50px;
+    border: 1px solid rgb(219, 195, 195);
+    border-radius: 3px;
+    color: rgb(67, 67, 67);
+    font-family: normal, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: center;
+}
+
+.carusel_two .prev,
+.carusel .prev {
+    position: absolute !important;
+    width: 56px;
+    height: 56px;
+    left: -40px;
+    top: 250px !important;
+}
+
+.carusel_two .next,
+.carusel .next {
+    position: absolute !important;
+    width: 56px;
+    height: 56px;
+    right: -40px;
+    top: 250px !important;
+}
+
+.carusel_two {
+    margin-top: 60px;
+}
+
+
+.carusel_two h1 {
+    color: rgb(0, 0, 0);
+    font-family: normal, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 1%;
+    text-align: left;
+}
+
+.complect_div .bss,
+.carusel_two .bss,
+.recept_div .bss {
+    margin-top: 70px;
+    width: 500px;
+    height: 36px;
+    margin-left: 400px;
+    padding: 5px;
+    border: none;
+
+}
+
+.complect_div .bss a,
+.carusel_two .bss a,
+.recept_div .bss a,
+.mobil_btn a {
+    text-decoration: none;
+}
+
+.complect_div .bss p,
+.carusel_two .bss p,
+.recept_div .bss p {
+    color: rgb(0, 0, 0);
+    font-family: normal;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: center;
+}
+
+
+.complect_div {
+    margin-top: 100px;
+}
+
+.complect_div h1 {
+    color: rgb(0, 0, 0);
+    font-family: normal, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 1%;
+    text-align: left;
+}
+
+.recept_div {
+    margin-top: 100px;
+}
+
+.recept_div h1 {
+    color: rgb(0, 0, 0);
+    font-family: normal, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 1%;
+    text-align: left;
+}
+
+.more {
+    margin-top: 100px;
+}
+
+.more h1 {
+    color: rgb(59, 59, 59);
+    font-family: normal, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 1%;
+    text-align: left;
+}
+
+
+.mobil_btn {
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+
+    .arrow h1 {
+        line-height: 24px;
+    }
+
+    .mobil_btn {
+        display: block;
+    }
+
+    .parent_big {
+        display: block;
+    }
+
+    .parent-card_ {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .card_ {
+        padding: 12px;
+        width: 45%px;
+        margin-top: 20px;
+    }
+
+    .btns {
+        margin-top: 5px;
+    }
+
+    .btns button {
+        margin-top: 0 !important;
+    }
+
+    .btns p {
+        color: rgb(59, 59, 59);
+        font-family: normal;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 39px;
+        letter-spacing: 1%;
+        text-align: left;
+    }
+
+    .btns span {
+        color: rgb(59, 59, 59);
+        font-family: normal;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 39px;
+        letter-spacing: 1%;
+        text-align: left;
+    }
+
+    .card_ button {
+        width: 100%;
+    }
+
+    .card_ img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .carusel {
+        display: none;
+    }
+
+
+    .card_ h2 {
+        margin-top: 15px;
+        font-size: 16px;
+    }
+
+    .card_ h3 {
+        margin-top: 8px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .carusel_two {
+        display: none;
+    }
+
+    .complect_div {
+        display: none;
+    }
+
+    .mobil_btn button {
+        border: none;
+        margin-top: 40px;
+        width: 100%;
+        border-radius: 3px;
+        background: rgb(236, 236, 236);
+    }
+
+    .mobil_btn p {
+        color: rgb(0, 0, 0);
+        font-family: medium;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 1%;
+        text-align: center;
+        padding-top: 8px;
+    }
+
+
+    .complect_div h1 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+
+    .recept_div {
+        display: none;
+    }
+
+
+    .more {
+        display: none;
+    }
+
+
+    .more h1 {
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+}

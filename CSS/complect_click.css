@@ -1,0 +1,213 @@
+@font-face {
+    font-family: medium;
+    src: url(../assets/fonts/MuseoSansCyrl300.ttf);
+}
+
+@font-face {
+    font-family: bold;
+    src: url(../assets/fonts/MuseoSansCyrl700.ttf);
+}
+
+@font-face {
+    font-family: normal;
+    src: url(../assets/fonts/MuseoSansCyrl500.ttf)
+}
+
+
+
+.content_divs {
+    margin-top: 36px;
+}
+
+.content_divs img {
+    width: 100%;
+}
+
+.content_divs h2 {
+    color: rgb(0, 0, 0);
+    font-family: normal, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 1%;
+    margin-top: 36px;
+    text-align: left;
+}
+
+.content_divs p {
+    margin-top: 24px;
+    color: rgb(130, 128, 128);
+    font-family: normal, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 1%;
+    text-align: left;
+}
+
+.buy_complekt {
+    margin-top: 86px;
+    display: flex;
+    justify-content: center;
+}
+
+.buy_complekt h1 {
+    margin-left: 80px;
+    color: rgb(59, 59, 59);
+    font-family: bold, sans-serif;
+    font-size: 40.8px;
+    font-weight: 700;
+    line-height: 50.5px;
+    letter-spacing: 1%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.buy_complekt h2 {
+    width: 236px;
+    height: 39px;
+    color: rgb(0, 0, 0);
+    font-family: normal;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 1%;
+    text-align: left;
+    margin-left: 200px;
+}
+
+.div_b {
+    width: 115px;
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+    justify-content: space-between;
+}
+
+.div_b p {
+    color: rgb(59, 59, 59);
+    font-family: normal;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 39px;
+    text-align: left;
+}
+
+.div_b span {
+    color: rgb(130, 128, 128);
+    font-family: medium, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 39px;
+    letter-spacing: 1%;
+    text-align: left;
+    text-decoration-line: line-through;
+}
+
+.buy_complekt .vtn {
+    margin-left: 120px;
+    width: 356px;
+    height: 50px;
+    border: none;
+    font-family: bold, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 16.5px;
+    letter-spacing: 1%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 3px;
+    background: linear-gradient(31.76deg, rgb(225, 34, 249) -1.208%, rgb(43, 30, 221) 68.853%);
+}
+
+
+
+.crazy {
+    margin-top: 179px;
+}
+
+.crazy .stark {
+    margin-top: 50px;
+}
+
+.crazy h1 {
+    color: rgb(43, 30, 221);
+    font-family: bold, sans-serif;
+    font-size: 40.8px;
+    font-weight: 700;
+    line-height: 50.5px;
+    letter-spacing: 1%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.modern {
+    margin-top: 142px;
+}
+
+.modern h1 {
+    padding-bottom: 50px;
+    color: rgb(59, 59, 59);
+    font-family: bold, sans-serif;
+    font-size: 40.8px;
+    font-weight: 700;
+    line-height: 50.5px;
+    letter-spacing: 1%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+textarea {
+    border: none;
+    padding: 15px;
+    width: 100%;
+    height: 130px;
+    background: rgb(242, 242, 242);
+}
+
+
+.inputs_f {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+input[type="email"] {
+    width: 55%;
+    height: 48px;
+    padding: 12px;
+    background: rgb(242, 242, 242);
+    border: none;
+}
+
+label {
+    font-family: medium;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.form-check {
+    width: 222px;
+    height: 48px;
+    align-items: center;
+    border: 1px Inside rgb(242, 242, 242)
+}
+
+.inputs_f button {
+    width: 222px;
+    height: 48px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: bold;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: center;
+    border-radius: 3px;
+    background: linear-gradient(31.76deg, rgb(225, 34, 249) -0.728%, rgb(43, 30, 221) 67.5%), rgb(236, 236, 236);
+}
